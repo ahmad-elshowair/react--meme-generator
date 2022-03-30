@@ -82,3 +82,18 @@ body {
 }
 
 /* ------------------------ END MEME FORM ------------------------ */
+
+.meme {
+  padding: 5px;
+  border-radius: 15px;
+  border: 2px solid rgb(133, 131, 131);
+  background-color: #eee;
+  height: 500px;
+  width: 100%;
+}
+
+.image--meme {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+}
