@@ -92,13 +92,8 @@ body {
 /* ------------------------ START MEME STYLE------------------------ */
 
 .meme {
-  padding: 5px;
-  border-radius: 15px;
-  border: 2px solid rgb(133, 131, 131);
-  background-color: #eee;
   height: 500px;
   position: relative;
-
 }
 
 .image--meme {
