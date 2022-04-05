@@ -46,14 +46,20 @@ body {
 
 /* ------------------------ END NAV ------------------------ */
 
-/* ------------------------ START MEME FORM ------------------------ */
+/* ------------------------ START MAIN STYLE ------------------------ */
+.main{
+  padding: 50px 30px;
+}
+/* ------------------------ END MAIN STYLE ------------------------ */
 
+
+/* ------------------------ START MEME FORM ------------------------ */
 .form {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr);
   gap: 20px;
-  padding: 30px;
+  margin-bottom: 30px;
 }
 
 .control--form {
@@ -83,13 +89,16 @@ body {
 
 /* ------------------------ END MEME FORM ------------------------ */
 
+/* ------------------------ START MEME STYLE------------------------ */
+
 .meme {
   padding: 5px;
   border-radius: 15px;
   border: 2px solid rgb(133, 131, 131);
   background-color: #eee;
   height: 500px;
-  width: 100%;
+  position: relative;
+
 }
 
 .image--meme {
@@ -97,3 +106,38 @@ body {
   height: 100%;
   border-radius: 15px;
 }
+
+.meme--text{
+  position: absolute;
+  width: 80%;
+  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 15px 0;
+  padding: 0 5px;
+  font-family: impact, sans-serif;
+  font-size: 2em;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1px;
+  text-shadow:
+      2px 2px 0 #000,
+      -2px -2px 0 #000,
+      2px -2px 0 #000,
+      -2px 2px 0 #000,
+      0 2px 0 #000,
+      2px 0 0 #000,
+      0 -2px 0 #000,
+      -2px 0 0 #000,
+      2px 2px 5px #000;
+}
+
+.top{
+  top: 20px;
+}
+
+.bottom{
+  bottom: 20px;
+}
+
+/* ------------------------ END MEME STYLE------------------------ */
